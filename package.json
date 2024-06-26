@@ -1,12 +1,17 @@
 {
-  "name": "04-clean-ddd",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/node": "^20.12.12"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "04-clean-ddd",
+	"module": "index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/node": "^20.12.12"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-emoji"
+		}
+	}
 }
